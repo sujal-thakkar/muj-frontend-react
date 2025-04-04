@@ -19,7 +19,7 @@ export function UnionIcon(props) {
     >
       {title && <title>{title}</title>}
 
-      <g filter={"url(#MFokoLBJf4_qa)"}>
+      <g filter={"url(#tuapBf8WQf0ja)"}>
         <path
           d={
             "M1576 448c0 74.006-282.51 134-631 134-348.492 0-631-59.994-631-134s282.508-134 631-134c348.49 0 631 59.994 631 134z"
@@ -34,7 +34,7 @@ export function UnionIcon(props) {
 
       <defs>
         <filter
-          id={"MFokoLBJf4_qa"}
+          id={"tuapBf8WQf0ja"}
           x={".5"}
           y={".5"}
           width={"1889"}
@@ -52,7 +52,7 @@ export function UnionIcon(props) {
 
           <feGaussianBlur
             stdDeviation={"156.75"}
-            result={"effect1_foregroundBlur_7_8"}
+            result={"effect1_foregroundBlur_1_111"}
           ></feGaussianBlur>
         </filter>
       </defs>
