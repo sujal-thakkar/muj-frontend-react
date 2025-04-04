@@ -1,0 +1,1169 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 0px;
+}
+.root > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > * {
+    grid-column: 4;
+  }
+}
+.section {
+  display: grid;
+  position: relative;
+  width: 628px;
+  height: 588px;
+  grid-row-gap: 16px;
+  align-content: center;
+  justify-items: center;
+  margin-bottom: 0px;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 0px;
+}
+.section > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .section > * {
+    grid-column: 4;
+  }
+}
+.signuIn {
+  background: rgba(255, 255, 255, 1);
+  width: 624px;
+  height: 528px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  margin-top: 0px;
+  border-radius: 12px;
+  padding: 0px;
+}
+.signuIn > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.signuIn > :global(.__wab_flex-container) > *,
+.signuIn > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.signuIn > :global(.__wab_flex-container) > picture > img,
+.signuIn
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 32px;
+}
+.title {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+}
+.title > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.title > :global(.__wab_flex-container) > *,
+.title > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.title > :global(.__wab_flex-container) > picture > img,
+.title > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 24px;
+}
+.header {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.content > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.content > :global(.__wab_flex-container) > *,
+.content > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.content > :global(.__wab_flex-container) > picture > img,
+.content
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.text__e1Tz1 {
+  display: block;
+  flex-grow: 1;
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.6000000238418579px;
+  line-height: 46px;
+  color: rgba(51, 51, 51, 1);
+  position: relative;
+}
+.svg__brnC {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 32px;
+  height: 32px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.text__h40Zx {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(51, 51, 51, 1);
+  align-self: stretch;
+  position: relative;
+}
+.frame6946 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame6946 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 40px);
+  width: calc(100% + 40px);
+}
+.frame6946 > :global(.__wab_flex-container) > *,
+.frame6946 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame6946 > :global(.__wab_flex-container) > picture > img,
+.frame6946
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 40px;
+}
+.formInput {
+  width: 260px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+  border-bottom: 1px solid #d0d5dd;
+}
+.formInput > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.formInput > :global(.__wab_flex-container) > *,
+.formInput > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formInput > :global(.__wab_flex-container) > picture > img,
+.formInput
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.reveal:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.input {
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+}
+.input > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.input > :global(.__wab_flex-container) > *,
+.input > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.input > :global(.__wab_flex-container) > picture > img,
+.input > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.iconInput {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.iconInput > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.iconInput > :global(.__wab_flex-container) > *,
+.iconInput > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.iconInput > :global(.__wab_flex-container) > picture > img,
+.iconInput
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__vic83 {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.yourEmail {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(157, 159, 161, 1);
+  position: relative;
+}
+.svg__chSrW {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.formInput2 {
+  width: 260px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.formInput2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.formInput2 > :global(.__wab_flex-container) > *,
+.formInput2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formInput2 > :global(.__wab_flex-container) > picture > img,
+.formInput2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.input2 {
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+  border-bottom: 1px solid #d0d5dd;
+}
+.input2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.input2 > :global(.__wab_flex-container) > *,
+.input2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.input2 > :global(.__wab_flex-container) > picture > img,
+.input2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.iconInput2 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.iconInput2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.iconInput2 > :global(.__wab_flex-container) > *,
+.iconInput2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.iconInput2 > :global(.__wab_flex-container) > picture > img,
+.iconInput2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__ieSO {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.yourEmail2 {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(157, 159, 161, 1);
+  position: relative;
+}
+.svg__ju7TJ {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame6947 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame6947 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 40px);
+  width: calc(100% + 40px);
+}
+.frame6947 > :global(.__wab_flex-container) > *,
+.frame6947 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame6947 > :global(.__wab_flex-container) > picture > img,
+.frame6947
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 40px;
+}
+.formInput3 {
+  width: 260px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.formInput3 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.formInput3 > :global(.__wab_flex-container) > *,
+.formInput3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formInput3 > :global(.__wab_flex-container) > picture > img,
+.formInput3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.input3 {
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+  border-bottom: 1px solid #d0d5dd;
+}
+.input3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.input3 > :global(.__wab_flex-container) > *,
+.input3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.input3 > :global(.__wab_flex-container) > picture > img,
+.input3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.iconInput3 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.iconInput3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.iconInput3 > :global(.__wab_flex-container) > *,
+.iconInput3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.iconInput3 > :global(.__wab_flex-container) > picture > img,
+.iconInput3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__ngrtD {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.yourEmail3 {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(157, 159, 161, 1);
+  position: relative;
+}
+.svg__tSjhH {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.formInput4 {
+  width: 260px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.formInput4 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.formInput4 > :global(.__wab_flex-container) > *,
+.formInput4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formInput4 > :global(.__wab_flex-container) > picture > img,
+.formInput4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.input4 {
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  border-bottom-color: #d0d5dd;
+  border-top-color: #ffffff;
+  border-right-color: #ffffff;
+  border-left-color: #ffffff;
+  flex-shrink: 0;
+  border-width: 1px;
+  border-style: solid;
+}
+.input4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.input4 > :global(.__wab_flex-container) > *,
+.input4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.input4 > :global(.__wab_flex-container) > picture > img,
+.input4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.iconInput4 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.iconInput4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.iconInput4 > :global(.__wab_flex-container) > *,
+.iconInput4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.iconInput4 > :global(.__wab_flex-container) > picture > img,
+.iconInput4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__aqJtV {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.yourEmail4 {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(157, 159, 161, 1);
+  position: relative;
+}
+.svg__d45Db {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame6948 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame6948 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 40px);
+  width: calc(100% + 40px);
+}
+.frame6948 > :global(.__wab_flex-container) > *,
+.frame6948 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame6948 > :global(.__wab_flex-container) > picture > img,
+.frame6948
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 40px;
+}
+.formInput5 {
+  width: 260px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.formInput5 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.formInput5 > :global(.__wab_flex-container) > *,
+.formInput5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formInput5 > :global(.__wab_flex-container) > picture > img,
+.formInput5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.input5 {
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+  border-bottom: 1px solid #d0d5dd;
+}
+.input5 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.input5 > :global(.__wab_flex-container) > *,
+.input5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.input5 > :global(.__wab_flex-container) > picture > img,
+.input5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.iconInput5 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.iconInput5 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.iconInput5 > :global(.__wab_flex-container) > *,
+.iconInput5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.iconInput5 > :global(.__wab_flex-container) > picture > img,
+.iconInput5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__cMg8L {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.yourEmail5 {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(157, 159, 161, 1);
+  position: relative;
+}
+.svg__oylge {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.formInput6 {
+  width: 260px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.formInput6 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.formInput6 > :global(.__wab_flex-container) > *,
+.formInput6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formInput6 > :global(.__wab_flex-container) > picture > img,
+.formInput6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.input6 {
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+  border-bottom: 1px solid #d0d5dd;
+}
+.input6 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.input6 > :global(.__wab_flex-container) > *,
+.input6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.input6 > :global(.__wab_flex-container) > picture > img,
+.input6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.iconInput6 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.iconInput6 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.iconInput6 > :global(.__wab_flex-container) > *,
+.iconInput6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.iconInput6 > :global(.__wab_flex-container) > picture > img,
+.iconInput6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__b7L74 {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.yourEmail6 {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(157, 159, 161, 1);
+  position: relative;
+}
+.svg__ssl1 {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame6949 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame6949 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 40px);
+  width: calc(100% + 40px);
+}
+.frame6949 > :global(.__wab_flex-container) > *,
+.frame6949 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame6949 > :global(.__wab_flex-container) > picture > img,
+.frame6949
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 40px;
+}
+.formInput7 {
+  width: 260px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.formInput7 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.formInput7 > :global(.__wab_flex-container) > *,
+.formInput7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formInput7 > :global(.__wab_flex-container) > picture > img,
+.formInput7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.input7 {
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+  border-bottom: 1px solid #d0d5dd;
+}
+.input7 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.input7 > :global(.__wab_flex-container) > *,
+.input7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.input7 > :global(.__wab_flex-container) > picture > img,
+.input7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.iconInput7 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.iconInput7 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.iconInput7 > :global(.__wab_flex-container) > *,
+.iconInput7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.iconInput7 > :global(.__wab_flex-container) > picture > img,
+.iconInput7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__v4Agy {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.yourEmail7 {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(157, 159, 161, 1);
+  position: relative;
+}
+.svg__jReOb {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.formInput8 {
+  width: 260px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.formInput8 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.formInput8 > :global(.__wab_flex-container) > *,
+.formInput8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formInput8 > :global(.__wab_flex-container) > picture > img,
+.formInput8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.input8 {
+  height: 52px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+  border-bottom: 1px solid #d0d5dd;
+}
+.input8 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.input8 > :global(.__wab_flex-container) > *,
+.input8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.input8 > :global(.__wab_flex-container) > picture > img,
+.input8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.iconInput8 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.iconInput8 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.iconInput8 > :global(.__wab_flex-container) > *,
+.iconInput8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.iconInput8 > :global(.__wab_flex-container) > picture > img,
+.iconInput8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__a1ZZa {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.yourEmail8 {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(157, 159, 161, 1);
+  position: relative;
+}
+.svg__jpDZu {
+  object-fit: cover;
+  max-width: 100%;
+  color: #282828;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.button {
+  background: rgba(241, 102, 35, 1);
+  width: 560px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 6px;
+  padding: 14px 28px;
+}
+.button > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.button > :global(.__wab_flex-container) > *,
+.button > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button > :global(.__wab_flex-container) > picture > img,
+.button
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__jJfVk {
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 27.99999237060547px;
+  height: 27.99999237060547px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.getStarted {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.svg__tFug {
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 27.99999237060547px;
+  height: 27.99999237060547px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
