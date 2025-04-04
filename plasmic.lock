@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "projectId": "5eZxHo5mwvsHRy3bMHe9eQ",
+      "version": "latest",
+      "dependencies": {},
+      "lang": "js",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "PAteK3u5YOsj",
+          "checksum": "99e4bb81af5594f352e7bba2237ef042"
+        },
+        {
+          "assetId": "5eZxHo5mwvsHRy3bMHe9eQ",
+          "type": "projectCss",
+          "checksum": "0912ad75ed86803529344c981e222bd7"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "DfO5c0r_8AjP",
+          "checksum": "64a48fd2141523212ac14de143cbcb43"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "DfO5c0r_8AjP",
+          "checksum": "64a48fd2141523212ac14de143cbcb43"
+        },
+        {
+          "type": "icon",
+          "assetId": "3slTmvq8R9Gc",
+          "checksum": "b10c32369b2dee1984fa443ffe2bd633"
+        },
+        {
+          "type": "icon",
+          "assetId": "nP5gJLWyiZXQ",
+          "checksum": "bd287291d8203a0bf63e1c8a918ea8c7"
+        },
+        {
+          "type": "icon",
+          "assetId": "YgTnhJlyIUxA",
+          "checksum": "5cc685ff6ed7e35e7a2f60bdfd97ca6f"
+        },
+        {
+          "type": "icon",
+          "assetId": "3XQD2Mgu2AHF",
+          "checksum": "0ac839145b410efd40c90fd16a0e72ca"
+        },
+        {
+          "type": "image",
+          "assetId": "X9sqWM5pXdWb",
+          "checksum": "e5dba3d6f98f606f506090cba1a90f8c"
+        },
+        {
+          "type": "image",
+          "assetId": "xT2V913oaKh4",
+          "checksum": "2083e7937c42298ad9dd649922d1a7cc"
+        },
+        {
+          "type": "image",
+          "assetId": "SNlzjE_XpFG4",
+          "checksum": "575d59c511615235230587d644d6c9bc"
+        },
+        {
+          "type": "image",
+          "assetId": "GRnskvnj3mQz",
+          "checksum": "3c1646807d5728e1a4c5e2d9ed81e669"
+        },
+        {
+          "type": "image",
+          "assetId": "u5l9NvNavGHH",
+          "checksum": "df40ab6b94176b3e81d8a59a4138076e"
+        },
+        {
+          "type": "image",
+          "assetId": "eqjdOQSDRc82",
+          "checksum": "e1a553eac34c8791aa6a3205e9550ac9"
+        },
+        {
+          "type": "image",
+          "assetId": "iXTnZb4V2Y5F",
+          "checksum": "2c39317033d48daf5bc5af1965e61c78"
+        },
+        {
+          "type": "image",
+          "assetId": "NKusYJU_sa2V",
+          "checksum": "ee7677ca4387ac3b1435b8b98b67671d"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    }
+  ],
+  "cliVersion": "0.1.337"
+}

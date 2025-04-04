@@ -1,0 +1,143 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "inlined",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "5eZxHo5mwvsHRy3bMHe9eQ",
+      "projectApiToken": "GvW4MiiT63j1ksdPPAROicF5vmoYwazJZiGlWxd8mCgSmdzh8KhvfeyJyTmkNAIZtZH86SGTh2hpsUEbUHA",
+      "projectName": "Website starter",
+      "version": "latest",
+      "cssFilePath": "plasmic/website_starter/plasmic.module.css",
+      "components": [
+        {
+          "id": "DfO5c0r_8AjP",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "5eZxHo5mwvsHRy3bMHe9eQ",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [
+        {
+          "id": "3slTmvq8R9Gc",
+          "name": "UnionIcon",
+          "moduleFilePath": "plasmic/website_starter/icons/PlasmicIcon__Union.jsx"
+        },
+        {
+          "id": "nP5gJLWyiZXQ",
+          "name": "IconInstagramAltIconIcon",
+          "moduleFilePath": "plasmic/website_starter/icons/PlasmicIcon__IconInstagramAltIcon.jsx"
+        },
+        {
+          "id": "YgTnhJlyIUxA",
+          "name": "IconWhatsappIcon",
+          "moduleFilePath": "plasmic/website_starter/icons/PlasmicIcon__IconWhatsapp.jsx"
+        },
+        {
+          "id": "3XQD2Mgu2AHF",
+          "name": "Group168Icon",
+          "moduleFilePath": "plasmic/website_starter/icons/PlasmicIcon__Group168.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "X9sqWM5pXdWb",
+          "name": "MUJ-Unity-Fest-Logo-6 1",
+          "filePath": "plasmic/website_starter/images/mujUnityFestLogo61.png"
+        },
+        {
+          "id": "xT2V913oaKh4",
+          "name": "image",
+          "filePath": "plasmic/website_starter/images/image.png"
+        },
+        {
+          "id": "SNlzjE_XpFG4",
+          "name": "image 6",
+          "filePath": "plasmic/website_starter/images/image6.png"
+        },
+        {
+          "id": "GRnskvnj3mQz",
+          "name": "image 2",
+          "filePath": "plasmic/website_starter/images/image2.png"
+        },
+        {
+          "id": "u5l9NvNavGHH",
+          "name": "image 3",
+          "filePath": "plasmic/website_starter/images/image3.png"
+        },
+        {
+          "id": "eqjdOQSDRc82",
+          "name": "image 4",
+          "filePath": "plasmic/website_starter/images/image4.png"
+        },
+        {
+          "id": "iXTnZb4V2Y5F",
+          "name": "Footer.png",
+          "filePath": "plasmic/website_starter/images/footerPng.png"
+        },
+        {
+          "id": "NKusYJU_sa2V",
+          "name": "Footer.svg",
+          "filePath": "plasmic/website_starter/images/footerSvg.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "qO1ndjNsj9VY",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "Vw9-uqcEPXw4",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "PAteK3u5YOsj",
+        "name": "Screen",
+        "projectId": "5eZxHo5mwvsHRy3bMHe9eQ",
+        "contextFilePath": "plasmic/website_starter/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.337",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.337/dist/plasmic.schema.json"
+}
